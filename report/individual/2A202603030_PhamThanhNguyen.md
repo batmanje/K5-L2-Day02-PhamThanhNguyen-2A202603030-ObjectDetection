@@ -7,17 +7,17 @@
 - Họ tên: Phạm Thành Nguyên
 - MSSV: 2A202603030
 - Email: phamthanhnguyen5122000@gmail.com
-- Lớp:
-- Link repo bài làm:
-- Link Colab đã chạy:
+- Lớp: 2a-lec-e402
+- Link repo bài làm: https://github.com/batmanje/K5-L2-Day02-PhamThanhNguyen-2A202603030-ObjectDetection.git
+- Link Colab đã chạy: 
 
 ## 2. Schema và mini guideline
 
-Dẫn tới [GUIDELINE_MINI.md](../../GUIDELINE_MINI.md). Tóm tắt ba ca mơ hồ đã quyết định, cách áp dụng schema và phần cần giảng viên làm rõ.
+(https://github.com/batmanje/K5-L2-Day02-PhamThanhNguyen-2A202603030-ObjectDetection/blob/main/GUIDELINE_MINI.md)
 
 ## 3. Annotation và self-QC
 
-- Số file nhãn train:
+- Số file nhãn train:50/50
 - Kết quả checker và lỗi đã xử lý:
 - Danh sách ít nhất 10 ảnh đã rà bằng mắt:
 - Lỗi bỏ sót/box/class phát hiện khi rà và cách sửa:
@@ -27,14 +27,14 @@ Dẫn tới [GUIDELINE_MINI.md](../../GUIDELINE_MINI.md). Tóm tắt ba ca mơ h
 
 | Chỉ số | Trước sửa | Sau sửa nếu có |
 |---|---:|---:|
-| TP | | |
-| FP | | |
-| FN | | |
-| Precision | | |
-| Recall | | |
-| F1 | | |
-| mean_iou_of_matches | | |
-| passed | | |
+| TP | 466 | |
+| FP | 577 | |
+| FN | 187 | |
+| Precision | 0.4468 | |
+| Recall | 0.7136 | |
+| F1 | 0.5495 | |
+| mean_iou_of_matches | 0.8384 | |
+| passed | pass | |
 
 Dẫn tới `outputs/annotation_evaluation.json` trong repo. Nếu rework, ghi ảnh, lỗi đã kiểm, quyết định sửa/giữ và lý do. Không suy nguyên nhân chỉ từ FP/FN. Không có rework thì ghi rõ.
 
