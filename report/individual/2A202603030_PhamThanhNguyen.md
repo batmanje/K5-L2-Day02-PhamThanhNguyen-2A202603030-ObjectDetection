@@ -4,9 +4,9 @@
 
 ## 1. Thông tin học viên
 
-- Họ tên:
-- MSSV:
-- Email:
+- Họ tên: Phạm Thành Nguyên
+- MSSV: 2A202603030
+- Email: phamthanhnguyen5122000@gmail.com
 - Lớp:
 - Link repo bài làm:
 - Link Colab đã chạy:
