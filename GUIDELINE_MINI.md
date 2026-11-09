@@ -22,6 +22,6 @@
 
 | Ảnh | Tình huống | Quyết định cuối | Lý do theo schema |
 | --- | --- | --- | --- |
-| `drive_...` | | | |
-| `drive_...` | | | |
-| `drive_...` | | | |
+| `drive_001` |Xe phía trên bên phải, không đọc được đặc trưng phân biệt lớp | Không gán box|Theo đúng quy tắc "vật thể rất nhỏ/mờ hồ": không đoán mò khi không phân biệt được lớp |
+| `drive_041` | Xe đỏ phía dưới bên phải bị cắt bởi rìa ảnh | Vẫn gán nhãn phần nhìn thấy |Vật thể bị che khuất nhưng vẫn nhận diện được lớp |
+| `drive_040` | Xe màu đen bên phải bị xe bus che mất một nửa |Gán nhãn phần nhìn thấy | Vật thể bị che khuất nhưng vẫn nhận diện được lớp |
