@@ -54,9 +54,9 @@ Dẫn tới `outputs/annotation_evaluation.json` trong repo. Nếu rework, ghi �
 Trả lời bốn câu hỏi cuối notebook:
 
 1. Lớp nào recall thấp nhất? Ảnh nào minh họa? Lớp Bus recall thấp nhất, ảnh drive_058
-2. Nếu mAP50 cao nhưng mAP50–95 thấp, cần kiểm điều gì trên box?
-3. Lỗi class nào có thể liên quan guideline? Dữ kiện nào hỗ trợ nhận xét?
-4. Vì sao không dùng 10 ảnh eval để train? Vai trò validation của chúng trong notebook là gì?
+2. Nếu mAP50 cao nhưng mAP50–95 thấp, cần kiểm điều gì trên box? box có thừa nền không, mép có lệch không, có cắt mất phần xe không, Box có quá to/bao 2 xe hoặc trùng lặp không.
+3. Lỗi class nào có thể liên quan guideline? Dữ kiện nào hỗ trợ nhận xét? Lỗi nhầm van với bus, drive_058: ground truth 1 bus + 6 van, model dự đoán 6 bus + 2 van.
+4. Vì sao không dùng 10 ảnh eval để train? Vai trò validation của chúng trong notebook là gì? Vì 10 ảnh eval là tập validation duy nhất chưa từng thấy — đưa chúng vào train là rò rỉ dữ liệu (data leakage), 
 
 ## 6. Khó khăn và cách xử lý
 
